@@ -9,3 +9,7 @@ The watch flag tells Sass to watch your source files for changes, and re-compile
 ```bash
 sass --watch input.scss output.css
 ```
+## After end of cookies start again sass compile run this command
+```bash
+sass --watch app/sass:public/stylesheets
+```
